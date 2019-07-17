@@ -349,6 +349,7 @@ class MarkdownBuilder implements md.NodeVisitor {
         mergedTexts.add(new RichText(
           textScaleFactor: styleSheet.textScaleFactor,
           text: mergedSpan,
+          textAlign: TextAlign.justify
         ));
       } else {
         mergedTexts.add(child);
